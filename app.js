@@ -76,10 +76,10 @@ function trySync() {
       updateStatus('同期エラー', true);
     }
   })
-  .catch(err => {
-    console.error(err);
-    updateStatus('同期失敗', true);
-  });
+.catch(err => {
+  console.error(err);                               // ← 開発者ツールにも出力
+  updateStatus('同期失敗: ' + err.message, true);   // ← 画面に表示
+});
 }
 
 document.getElementById('sync').addEventListener('click', trySync);
