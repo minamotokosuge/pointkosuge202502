@@ -2,7 +2,7 @@
  * Point Collector PWA (HID QR reader version)
  * Replace YOUR_WEBAPP_URL_HERE with your Apps Script WebApp URL.
  */
-const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbz4TU9TMY2tS9eKSgn0Giw59n9Yyef02g4TOo5k05kLiO298bAAX2oHP5H8SQgDvZFlZw/exec';   // ★ここを書き換える
+const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbw8qFB1pGBWSJ0PfivcfY2IGsyZTKCFWoUplCTifm2utL9GvUweigCoy3rqGkPxueUCmA/exec';   // ★ここを書き換える
 const storeId   = localStorage.getItem('storeId') || prompt('店舗IDを入力してください');
 localStorage.setItem('storeId', storeId);
 const pointValue = localStorage.getItem('point') || prompt('付与ポイント数を入力してください');
