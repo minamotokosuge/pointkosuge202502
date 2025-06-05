@@ -1,0 +1,7 @@
+{
+  "name": "Kosuge Point Collector",
+  "short_name": "PointCollector",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "icons": []
+}
