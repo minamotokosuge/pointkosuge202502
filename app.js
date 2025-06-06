@@ -4,7 +4,7 @@
  */
 // ここを、デプロイしたGoogle Apps Script WebアプリのURLに正確に書き換えてください。
 // 例: 'https://script.google.com/macros/s/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/exec'
-const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbyqrFUFjrQSc4fftNGIHprCMJ78EhDp_B1XMk4nQpZKRtrZ0LPnsNM8QpDiCppC8S4M/exec'; // ★ここを書き換える
+const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbyuIm7NYLzLhb094JwKtaZ5nAfqTlGxN5CjIrGZ0jhlFbiW1hsa5VWLSjJVEF9FrAfp/exec'; // ★ここを書き換える
 
 // ローカルストレージから店舗IDと付与ポイント数を取得。なければプロンプトで入力。
 const storeId = localStorage.getItem('storeId') || prompt('店舗IDを入力してください');
